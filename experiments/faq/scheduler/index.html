@@ -11,14 +11,14 @@
       
       
       
-        <link rel="canonical" href="https://litmuschaos.github.io/litmus/experiments/troubleshooting/portal/">
+        <link rel="canonical" href="https://litmuschaos.github.io/litmus/experiments/faq/scheduler/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
     
     
       
-        <title>Portal - Litmus Experiments</title>
+        <title>Scheduler - Litmus Experiments</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#litmus-portal" class="md-skip">
+        <a href="#chaos-scheduler" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Portal
+              Scheduler
             
           </span>
         </div>
@@ -250,7 +250,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../faq/content/" class="md-tabs__link md-tabs__link--active">
+      <a href="../content/" class="md-tabs__link md-tabs__link--active">
         Litmus FAQ
       </a>
     </li>
@@ -1605,108 +1605,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/content/" class="md-nav__link">
+      <a href="../content/" class="md-nav__link">
         Contents
       </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
-      
-      <label class="md-nav__link" for="__nav_4_2">
-        FAQ
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="FAQ" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
-          <span class="md-nav__icon md-icon"></span>
-          FAQ
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/install/" class="md-nav__link">
-        Install
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/experiments/" class="md-nav__link">
-        Experiments
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/portal/" class="md-nav__link">
-        Portal
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/scheduler/" class="md-nav__link">
-        Scheduler
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/security/" class="md-nav__link">
-        Security
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/ci-cd/" class="md-nav__link">
-        CI/CD
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1721,16 +1622,16 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
       
-      <label class="md-nav__link" for="__nav_4_3">
-        Troubleshooting
+      <label class="md-nav__link" for="__nav_4_2">
+        FAQ
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+      <nav class="md-nav" aria-label="FAQ" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
           <span class="md-nav__icon md-icon"></span>
-          Troubleshooting
+          FAQ
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1761,6 +1662,18 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../portal/" class="md-nav__link">
+        Portal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -1773,12 +1686,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Portal
+          Scheduler
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Portal
+        Scheduler
       </a>
       
         
@@ -1804,50 +1717,64 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#we-were-setting-up-a-litmus-portal-however-self-agent-status-is-showing-pending-any-idea-why-is-happening" class="md-nav__link">
-    We were setting up a Litmus Portal, however, Self-Agent status is showing pending. Any idea why is happening?
+  <a href="#what-is-chaosscheduler" class="md-nav__link">
+    What is ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#after-logging-in-for-the-first-time-to-the-portal-get-started-page-kept-loading-after-i-provided-the-new-password" class="md-nav__link">
-    After logging in for the first time to the portal, /get-started page kept loading after I provided the new password.
+  <a href="#how-is-chaosscheduler-different-from-chaosoperator" class="md-nav__link">
+    How is ChaosScheduler different from ChaosOperator?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#subscriber-is-crashing-with-the-error-dialwebsocket-bad-handshake" class="md-nav__link">
-    Subscriber is crashing with the error dial:websocket: bad handshake
+  <a href="#what-are-the-pre-requisites-for-chaosscheduler" class="md-nav__link">
+    What are the pre-requisites for ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#not-able-to-connect-to-the-litmuschaos-control-plane-hosted-on-gke-cluster" class="md-nav__link">
-    Not able to connect to the LitmusChaos Control Plane hosted on GKE cluster.
+  <a href="#how-to-install-chaosscheduler" class="md-nav__link">
+    How to install ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#i-forgot-my-litmus-portal-password-how-can-i-reset-my-credentials" class="md-nav__link">
-    I forgot my Litmus portal password. How can I reset my credentials?
+  <a href="#how-to-schedule-the-chaos-using-chaosscheduler" class="md-nav__link">
+    How to schedule the chaos using ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#while-uninstalling-litmus-portal-using-helm-some-components-like-subscriber-exporter-event-workflows-etc-are-not-removed" class="md-nav__link">
-    While Uninstalling Litmus portal using helm, some components like subscriber, exporter, event, workflows, etc, are not removed.
+  <a href="#what-are-the-different-techniques-of-scheduling-the-chaos" class="md-nav__link">
+    What are the different techniques of scheduling the chaos?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unable-to-install-litmus-portal-using-helm-server-pod-and-mongo-pod-are-in-crashloopbackoff-state-got-this-error-while-checking-the-logs-of-mongo-container-chown-changing-ownership-of-datadbsnapshot-read-only-file-system" class="md-nav__link">
-    Unable to Install Litmus portal using helm. Server pod and mongo pod are in CrashLoopBackOff state. Got this error while checking the logs of mongo container chown: changing ownership of '/data/db/.snapshot': Read-only file system
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypenow" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=now?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypeonce" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=once?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletyperepeat" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=repeat?
   </a>
   
 </li>
@@ -1870,7 +1797,94 @@
   
   
     <li class="md-nav__item">
-      <a href="../scheduler/" class="md-nav__link">
+      <a href="../security/" class="md-nav__link">
+        Security
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ci-cd/" class="md-nav__link">
+        CI/CD
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      <label class="md-nav__link" for="__nav_4_3">
+        Troubleshooting
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/install/" class="md-nav__link">
+        Install
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/experiments/" class="md-nav__link">
+        Experiments
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/portal/" class="md-nav__link">
+        Portal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/scheduler/" class="md-nav__link">
         Scheduler
       </a>
     </li>
@@ -2000,50 +2014,64 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#we-were-setting-up-a-litmus-portal-however-self-agent-status-is-showing-pending-any-idea-why-is-happening" class="md-nav__link">
-    We were setting up a Litmus Portal, however, Self-Agent status is showing pending. Any idea why is happening?
+  <a href="#what-is-chaosscheduler" class="md-nav__link">
+    What is ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#after-logging-in-for-the-first-time-to-the-portal-get-started-page-kept-loading-after-i-provided-the-new-password" class="md-nav__link">
-    After logging in for the first time to the portal, /get-started page kept loading after I provided the new password.
+  <a href="#how-is-chaosscheduler-different-from-chaosoperator" class="md-nav__link">
+    How is ChaosScheduler different from ChaosOperator?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#subscriber-is-crashing-with-the-error-dialwebsocket-bad-handshake" class="md-nav__link">
-    Subscriber is crashing with the error dial:websocket: bad handshake
+  <a href="#what-are-the-pre-requisites-for-chaosscheduler" class="md-nav__link">
+    What are the pre-requisites for ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#not-able-to-connect-to-the-litmuschaos-control-plane-hosted-on-gke-cluster" class="md-nav__link">
-    Not able to connect to the LitmusChaos Control Plane hosted on GKE cluster.
+  <a href="#how-to-install-chaosscheduler" class="md-nav__link">
+    How to install ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#i-forgot-my-litmus-portal-password-how-can-i-reset-my-credentials" class="md-nav__link">
-    I forgot my Litmus portal password. How can I reset my credentials?
+  <a href="#how-to-schedule-the-chaos-using-chaosscheduler" class="md-nav__link">
+    How to schedule the chaos using ChaosScheduler?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#while-uninstalling-litmus-portal-using-helm-some-components-like-subscriber-exporter-event-workflows-etc-are-not-removed" class="md-nav__link">
-    While Uninstalling Litmus portal using helm, some components like subscriber, exporter, event, workflows, etc, are not removed.
+  <a href="#what-are-the-different-techniques-of-scheduling-the-chaos" class="md-nav__link">
+    What are the different techniques of scheduling the chaos?
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unable-to-install-litmus-portal-using-helm-server-pod-and-mongo-pod-are-in-crashloopbackoff-state-got-this-error-while-checking-the-logs-of-mongo-container-chown-changing-ownership-of-datadbsnapshot-read-only-file-system" class="md-nav__link">
-    Unable to Install Litmus portal using helm. Server pod and mongo pod are in CrashLoopBackOff state. Got this error while checking the logs of mongo container chown: changing ownership of '/data/db/.snapshot': Read-only file system
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypenow" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=now?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypeonce" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=once?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletyperepeat" class="md-nav__link">
+    What fields of spec.schedule are to be specified with spec.schedule.type=repeat?
   </a>
   
 </li>
@@ -2065,60 +2093,75 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/litmuschaos/litmus/edit/master/docs/experiments/troubleshooting/portal.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/litmuschaos/litmus/edit/master/docs/experiments/faq/scheduler.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="litmus-portal">Litmus Portal<a class="headerlink" href="#litmus-portal" title="Permanent link">&para;</a></h1>
+                <h1 id="chaos-scheduler">Chaos Scheduler<a class="headerlink" href="#chaos-scheduler" title="Permanent link">&para;</a></h1>
 <h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p><a href="#we-were-setting-up-a-litmus-portal-however-self-agent-status-is-showing-pending-any-idea-why-is-happening">We were setting up a Litmus Portal, however, Self-Agent status is showing pending. Any idea why is happening?</a></p>
+<p><a href="#what-is-chaosscheduler">What is ChaosScheduler?</a></p>
 </li>
 <li>
-<p><a href="#after-logging-in-for-the-first-time-to-the-portal-get-started-page-kept-loading-after-i-provided-the-new-password">After logging in for the first time to the portal, /get-started page kept loading after I provided the new password</a></p>
+<p><a href="#how-is-chaosscheduler-different-from-chaosoperator">How is ChaosScheduler different from ChaosOperator?</a></p>
 </li>
 <li>
-<p><a href="#subscriber-is-crashing-with-the-error-dialwebsocket-bad-handshake">Subscriber is crashing with the error dial:websocket: bad handshake</a></p>
+<p><a href="#what-are-the-pre-requisites-for-chaosscheduler">What are the pre-requisites for ChaosScheduler?</a></p>
 </li>
 <li>
-<p><a href="#not-able-to-connect-to-the-litmuschaos-control-plane-hosted-on-gke-cluster">Not able to connect to the LitmusChaos Control Plane hosted on GKE cluster</a></p>
+<p><a href="#how-to-install-chaosscheduler">How to install ChaosScheduler?</a></p>
 </li>
 <li>
-<p><a href="#i-forgot-my-litmus-portal-password-how-can-i-reset-my-credentials">I forgot my Litmus portal password. How can I reset my credentials?</a></p>
+<p><a href="#how-to-schedule-the-chaos-using-chaosscheduler">How to schedule the chaos using ChaosScheduler?</a></p>
 </li>
 <li>
-<p><a href="#while-uninstalling-litmus-portal-using-helm-some-components-like-subscriber-exporter-event-workflows-etc-are-not-removed">While Uninstalling Litmus portal using helm, some components like subscriber, exporter, event, workflows, etc, are not removed</a></p>
+<p><a href="#what-are-the-different-techniques-of-scheduling-the-chaos">What are the different techniques of scheduling the chaos?</a></p>
 </li>
 <li>
-<p><a href="#unable-to-install-litmus-portal-using-helm-server-pod-and-mongo-pod-are-in-crashloopbackoff-state-got-this-error-while-checking-the-logs-of-mongo-container-chown-changing-ownership-of-datadbsnapshot-read-only-file-system">Unable to Install Litmus portal using helm. Server pod and mongo pod are in CrashLoopBackOff state. Got this error while checking the logs of mongo container chown: changing ownership of '/data/db/.snapshot': Read-only file system</a></p>
+<p><a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypenow">What fields of spec.schedule are to be specified with spec.schedule.type=now?</a></p>
+</li>
+<li>
+<p><a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypeonce">What fields of spec.schedule are to be specified with spec.schedule.type=once?</a></p>
+</li>
+<li>
+<p><a href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletyperepeat">What fields of spec.schedule are to be specified with spec.schedule.type=repeat?</a></p>
 </li>
 </ol>
-<h3 id="we-were-setting-up-a-litmus-portal-however-self-agent-status-is-showing-pending-any-idea-why-is-happening">We were setting up a Litmus Portal, however, Self-Agent status is showing pending. Any idea why is happening?<a class="headerlink" href="#we-were-setting-up-a-litmus-portal-however-self-agent-status-is-showing-pending-any-idea-why-is-happening" title="Permanent link">&para;</a></h3>
-<p>The litmusportal-server-service might not be reachable due to inbound rules. You can enable the traffic to it if on GKE/EKS/AKS (by adding the port to inbound rules for traffic). You have to check the logs of the subscriber pod and expose the port mentioned for communication with the server.</p>
-<h3 id="after-logging-in-for-the-first-time-to-the-portal-get-started-page-kept-loading-after-i-provided-the-new-password">After logging in for the first time to the portal, /get-started page kept loading after I provided the new password.<a class="headerlink" href="#after-logging-in-for-the-first-time-to-the-portal-get-started-page-kept-loading-after-i-provided-the-new-password" title="Permanent link">&para;</a></h3>
-<p>First, try to clear the browser cache and cookies and refresh the page, this might solve your problem. If your problem persists then delete all the cluster role bindings,PV, and PVC used by litmus and try to reinstall the litmus again.</p>
-<h3 id="subscriber-is-crashing-with-the-error-dialwebsocket-bad-handshake">Subscriber is crashing with the error dial:websocket: bad handshake<a class="headerlink" href="#subscriber-is-crashing-with-the-error-dialwebsocket-bad-handshake" title="Permanent link">&para;</a></h3>
-<p>It is a network issue. It seems your subscriber is unable to access the server. While installing the agent, It creates a config called agent-config to store some metadata like server endpoint, accesskey, etc. That server endpoint can be generated in many ways:
-  - Ingress (If INGRESS=true in server deployment envs)
-  - Loadbalancer (it generates lb type of IP based on the server svc type)
-  - NodePort (it generates nodeport type of IP based on the server svc type)
-  - ClusterIP (it generates clusterip type of IP based on the server svc type)
-So, you can edit the agent-config and update the node IP. Once edited, restart the subscriber. We suggest using ingress, so that if the endpoint IP changes, then it won't affect your agent.</p>
-<h3 id="not-able-to-connect-to-the-litmuschaos-control-plane-hosted-on-gke-cluster">Not able to connect to the LitmusChaos Control Plane hosted on GKE cluster.<a class="headerlink" href="#not-able-to-connect-to-the-litmuschaos-control-plane-hosted-on-gke-cluster" title="Permanent link">&para;</a></h3>
-<p>In GKE you have to setup a firewall rule to allow TCP traffic on the node port.You can use the following command:
-gcloud compute firewall-rules create test-node-port --allow tcp:port
-If this firewall rule is set up, it may be accessible on nodeIp:port where nodeIp is the external IP address of your node.</p>
-<h3 id="i-forgot-my-litmus-portal-password-how-can-i-reset-my-credentials">I forgot my Litmus portal password. How can I reset my credentials?<a class="headerlink" href="#i-forgot-my-litmus-portal-password-how-can-i-reset-my-credentials" title="Permanent link">&para;</a></h3>
-<p>You can reset by running the followin command:
-<div class="highlight"><pre><span></span><code>kubectl exec -it mongo-0 -n litmus -- mongo -u admin -p 1234 &lt;&lt;&lt; $&#39;use auth\ndb.usercredentials.update({username:&quot;admin&quot;},{$set:{password:&quot;$2a$15$sNuQl9y/Ok92N19UORcro.3wulEyFi0FfJrnN/akOQe3uxTZAzQ0C&quot;}})\nexit\n&#39;
-</code></pre></div>
-Make sure to update the namespace and mongo pod name according to your setup,the rest should remain the same. This command will update the password to litmus.</p>
-<h3 id="while-uninstalling-litmus-portal-using-helm-some-components-like-subscriber-exporter-event-workflows-etc-are-not-removed">While Uninstalling Litmus portal using helm, some components like subscriber, exporter, event, workflows, etc, are not removed.<a class="headerlink" href="#while-uninstalling-litmus-portal-using-helm-some-components-like-subscriber-exporter-event-workflows-etc-are-not-removed" title="Permanent link">&para;</a></h3>
-<p>These are agent components, which are launched by the control plane server, so first disconnect the agent from the portal then uninstall the portal using helm.</p>
-<h3 id="unable-to-install-litmus-portal-using-helm-server-pod-and-mongo-pod-are-in-crashloopbackoff-state-got-this-error-while-checking-the-logs-of-mongo-container-chown-changing-ownership-of-datadbsnapshot-read-only-file-system">Unable to Install Litmus portal using helm. Server pod and mongo pod are in CrashLoopBackOff state. Got this error while checking the logs of mongo container chown: changing ownership of '/data/db/.snapshot': Read-only file system<a class="headerlink" href="#unable-to-install-litmus-portal-using-helm-server-pod-and-mongo-pod-are-in-crashloopbackoff-state-got-this-error-while-checking-the-logs-of-mongo-container-chown-changing-ownership-of-datadbsnapshot-read-only-file-system" title="Permanent link">&para;</a></h3>
-<p>It seems the directory somehow existed before litmus installation and might be used by some other application. You have to change the mount path from /consul/config to /consul/myconfig in mongo statefulset then you can successfully deploy the litmus.</p>
+<h3 id="what-is-chaosscheduler">What is ChaosScheduler?<a class="headerlink" href="#what-is-chaosscheduler" title="Permanent link">&para;</a></h3>
+<p>ChaosScheduler is an operator built on top of the operator-sdk framework. It keeps on watching resources of kind ChaosSchedule and based on the scheduling parameters automates the formation of ChaosEngines, to be observed by ChaosOperator, instead of manually forming the ChaosEngine every time we wish to inject chaos in the cluster.</p>
+<h3 id="how-is-chaosscheduler-different-from-chaosoperator">How is ChaosScheduler different from ChaosOperator?<a class="headerlink" href="#how-is-chaosscheduler-different-from-chaosoperator" title="Permanent link">&para;</a></h3>
+<p>ChaosOperator operates on chaosengines while ChaosScheduler operates on chaosschedules which in turn forms chaosengines, through some scheduling techniques, to be observed by ChaosOperator. So ChaosOperator is a basic building block used to inject chaos in a cluster while ChaosScheduler is just a scheduling strategy that injects chaos in some form of pattern using ChaosOperator only. ChaosScheduler can not be used independently of ChaosOperator.</p>
+<h3 id="what-are-the-pre-requisites-for-chaosscheduler">What are the pre-requisites for ChaosScheduler?<a class="headerlink" href="#what-are-the-pre-requisites-for-chaosscheduler" title="Permanent link">&para;</a></h3>
+<p>For getting started with ChaosScheduler, we should just have ChaosOperator and all the litmus infrastructure components installed in the cluster beforehand.</p>
+<h3 id="how-to-install-chaosscheduler">How to install ChaosScheduler?<a class="headerlink" href="#how-to-install-chaosscheduler" title="Permanent link">&para;</a></h3>
+<p>Firstly install the rbac and crd -
+<div class="highlight"><pre><span></span><code>kubectl apply -f https://raw.githubusercontent.com/litmuschaos/chaos-scheduler/master/deploy/rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/litmuschaos/chaos-scheduler/master/deploy/crds/chaosschedule_crd.yaml
+</code></pre></div></p>
+<p>Install ChaosScheduler operator afterwards -
+<div class="highlight"><pre><span></span><code>kubectl apply -f https://raw.githubusercontent.com/litmuschaos/chaos-scheduler/master/deploy/chaos-scheduler.yaml
+</code></pre></div></p>
+<h3 id="how-to-schedule-the-chaos-using-chaosscheduler">How to schedule the chaos using ChaosScheduler?<a class="headerlink" href="#how-to-schedule-the-chaos-using-chaosscheduler" title="Permanent link">&para;</a></h3>
+<p>This depends on which type of schedule we want to use for injecting chaos. For basic understanding refer <a href="https://docs.litmuschaos.io/docs/scheduling/">constructing schedule</a></p>
+<h3 id="what-are-the-different-techniques-of-scheduling-the-chaos">What are the different techniques of scheduling the chaos?<a class="headerlink" href="#what-are-the-different-techniques-of-scheduling-the-chaos" title="Permanent link">&para;</a></h3>
+<p>As of now, there are 3 scheduling techniques which can be selected based on the parameter passed to spec.schedule.type
+    - type=now
+    - type=once
+    - type=repeat</p>
+<h3 id="what-fields-of-specschedule-are-to-be-specified-with-specscheduletypenow">What fields of spec.schedule are to be specified with spec.schedule.type=now?<a class="headerlink" href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypenow" title="Permanent link">&para;</a></h3>
+<p>No fields are needed to be specified for this as it launches the desired chaosengine immediately.</p>
+<h3 id="what-fields-of-specschedule-are-to-be-specified-with-specscheduletypeonce">What fields of spec.schedule are to be specified with spec.schedule.type=once?<a class="headerlink" href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletypeonce" title="Permanent link">&para;</a></h3>
+<p>We just need to pass spec.executionTime. Scheduler will launch the chaosengine exactly at the point of time mentioned in this parameter.</p>
+<h3 id="what-fields-of-specschedule-are-to-be-specified-with-specscheduletyperepeat">What fields of spec.schedule are to be specified with spec.schedule.type=repeat?<a class="headerlink" href="#what-fields-of-specschedule-are-to-be-specified-with-specscheduletyperepeat" title="Permanent link">&para;</a></h3>
+<p>All the fields of spec.schedule except spec.schedule.executionTime are needed to be specified.
+    - startTime
+    - endTime
+    - minChaosInterval
+    - instanceCount
+    - includedDays
+It schedules chaosengines to be launched according to the parameters passed. It works just as a cronjob does, having superior functionalities such as we can control when the schedule will start and end.</p>
                 
                   
                 
@@ -2150,7 +2193,7 @@ Make sure to update the namespace and mongo pod name according to your setup,the
         <!-- Link to previous page -->
         
         <a
-            href="../experiments/"
+            href="../portal/"
             class="md-footer__link md-footer__link--prev"
             rel="prev"
         >
@@ -2162,7 +2205,7 @@ Make sure to update the namespace and mongo pod name according to your setup,the
                 <span class="md-footer__direction">
                 Previous
                 </span>
-                Experiments
+                Portal
             </div>
             </div>
         </a>
@@ -2171,7 +2214,7 @@ Make sure to update the namespace and mongo pod name according to your setup,the
         <!-- Link to next page -->
         
         <a
-            href="../scheduler/"
+            href="../security/"
             class="md-footer__link md-footer__link--next"
             rel="next"
         >
@@ -2180,7 +2223,7 @@ Make sure to update the namespace and mongo pod name according to your setup,the
                 <span class="md-footer__direction">
                 Next
                 </span>
-                Scheduler
+                Security
             </div>
             </div>
             <div class="md-footer__button md-icon">
